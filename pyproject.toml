@@ -24,7 +24,7 @@ authors = [
 [tool.poetry.dependencies]
 python = "^3.8, <3.11"
 torch = "^1.8"
-torchvision = "^0.9"
+torchvision = "*"
 pyyaml = "*"
 tqdm = "*"
 numpy = "*"
