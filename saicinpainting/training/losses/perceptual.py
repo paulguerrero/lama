@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision
 
-from models.ade20k import ModelBuilder
+from ...models.ade20k import ModelBuilder
 from saicinpainting.utils import check_and_warn_input_range
 
 
