@@ -8,8 +8,8 @@ import yaml
 import torch
 from omegaconf import OmegaConf
 
-from training.trainers import load_checkpoint
-from evaluation.refinement import refine_predict
+from .training.trainers import load_checkpoint
+from .evaluation.refinement import refine_predict
 
 @dataclass
 class LamaInpainterConfig:
